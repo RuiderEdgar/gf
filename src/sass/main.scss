@@ -1,0 +1,123 @@
+@import "reset";
+@import "colors";
+@import "variables";
+.header {
+    height: 5rem;
+    width: 100%;
+    // background: linear-gradient(to bottom, #bd478c,  #bd478c);
+    // background: linear-gradient(to bottom, #ff72f3, #bd478c 80%, #ff72f3);
+    background: $rosa-palo;
+    // box-shadow: -2px 3px 19px 10px rgba(0, 0, 0, 0.46);
+    box-shadow: $box-shadow-black;
+    display: flex;
+    h1 {
+        color: white;
+        margin: auto auto;
+    }
+}
+
+main {
+    margin-top: 2rem;
+}
+
+.headerIcons,
+.footerIcons {
+    display: flex;
+    justify-content: space-between;
+    img {
+        width: 4.8rem;
+    }
+}
+
+.container-card {
+    margin: 2rem 2rem 3rem;
+    box-shadow: $box-shadow-black;
+    background: transparent;
+    .container-txt {
+        background-color: rgb(224, 224, 224);
+        border-radius: 5px;
+        padding: 1rem;
+        text-align: justify;
+        h1 {
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+.card-foto-txt {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0 0;
+    background: $blue-gradient;
+    box-shadow: $box-shadow-black-complete;
+    .container-foto {
+        margin: 2rem 0 1rem;
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        .foto {
+            width: 20rem;
+            height: 20rem;
+            box-shadow: $box-shadow-black-complete;
+            border-radius: 5px;
+        }
+        .foto-concierto {
+            width: 25rem;
+            height: 19rem;
+            box-shadow: $box-shadow-black-complete;
+            border-radius: 5px;
+        }
+    }
+    .container-txt {
+        background: rgba(255, 255, 255, 0.14);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(7.5px);
+        margin: 1rem 1rem;
+        padding: 0 1rem;
+        text-align: justify;
+        h1 {
+            margin: 1rem 0;
+        }
+        .txt {
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+.fondo-flores {
+    background: url("https://i.pinimg.com/236x/c8/67/4f/c8674f917a499dd10d40d7fb5cb3cdd7.jpg?nii=t");
+}
+
+.card-bob,
+.card-patricio,
+.card-calamardo {
+    height: 28rem;
+    background-color: transparent;
+    display: flex;
+    div {
+        margin: auto auto;
+        background: rgba(255, 255, 255, 0.14);
+        border-radius: 5px;
+        width: 60%;
+        height: 5rem;
+        box-shadow: 0 4px 2px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        display: flex;
+        h1 {
+            margin: auto auto;
+        }
+    }
+}
+
+.card-bob {
+    background: center / contain no-repeat url("https://www.gratistodo.com/wp-content/uploads/2017/02/Bob-Esponja-Wallpapers-1.jpg");
+}
+
+.card-patricio {
+    background: center / contain no-repeat url("https://i.pinimg.com/originals/32/af/5a/32af5abdd5d0dc6b6162b7123eb1b318.jpg");
+}
+
+.card-calamardo {
+    background: center / contain no-repeat url("http://pm1.narvii.com/6070/f19ba0dd5e2647fce488e7a46aa26ba9fbdad09e_00.jpg");
+}

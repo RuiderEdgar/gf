@@ -1,1 +1,10 @@
-import "/src/sass/main.sass";
+import "/src/sass/main.scss";
+import "./assets/explosion.gif";
+import "./assets/fuegos-artificiales.gif";
+import "./assets/globos-separados.gif";
+import "./assets/globos.gif";
+import "./assets/foto.jpg";
+import "./assets/concierto.jpg";
+import "./assets/bob-esponja.jpg";
+import "./assets/patricio.jpg";
+import "./assets/calamardo.jpg";
