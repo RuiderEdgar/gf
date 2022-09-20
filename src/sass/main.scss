@@ -1,6 +1,7 @@
 @import "reset";
 @import "colors";
 @import "variables";
+@import "modoh";
 .header {
     height: 5rem;
     width: 100%;
@@ -10,12 +11,22 @@
     // box-shadow: -2px 3px 19px 10px rgba(0, 0, 0, 0.46);
     box-shadow: $box-shadow-black;
     display: flex;
+    .icon {
+        margin-left: 0.5rem;
+        display: flex;
+        border: none;
+        cursor: pointer;
+        img {
+            width: 4rem;
+            margin: auto 0;
+        }
+    }
     h1 {
         color: white;
-        margin: -0.5rem auto 0;
+        margin: auto auto;
         font-family: 'Aref Ruqaa Ink', serif;
         font-weight: bold;
-        font-size: var(--header);
+        font-size: var(--title);
     }
 }
 
@@ -100,7 +111,7 @@ main {
         h1 {
             margin: 1rem 0;
         }
-        .txt {
+        .txt-foto {
             margin-bottom: 1rem;
         }
     }

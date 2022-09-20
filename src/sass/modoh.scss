@@ -1,0 +1,26 @@
+// @import "colors";
+#modoHot {
+    background-color: $bodyBackground;
+    padding: 1rem 0;
+    margin: 0 0;
+}
+
+#hot {
+    background-color: $rojoIntenso;
+    border-bottom: 2px solid $divider;
+}
+
+#cardHot {
+    background: none;
+    border-radius: 5px;
+}
+
+.container-cats {
+    display: flex;
+    justify-content: space-evenly;
+    img {
+        width: 14rem;
+        height: 14rem;
+        border-radius: 5px;
+    }
+}

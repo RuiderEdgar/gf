@@ -34,7 +34,12 @@ module.exports = {
         ]
     },
     plugins: [new HTMLWebpackPlugin({
-        filename: "index.html",
-        template: './index.html'
-    })]
+            filename: "index.html",
+            template: './index.html'
+        }),
+        new HTMLWebpackPlugin({
+            filename: "./pages/modoh.html",
+            template: './src/pages/modoh.html'
+        })
+    ]
 }
